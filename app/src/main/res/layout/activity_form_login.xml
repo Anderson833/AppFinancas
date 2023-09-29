@@ -54,6 +54,7 @@
          android:id="@+id/bt_entrar"
           style="@style/Button"
           android:text="@string/entrar"
+          android:onClick="logar"
           app:layout_constraintStart_toStartOf="parent"
           app:layout_constraintEnd_toEndOf="parent"
           app:layout_constraintTop_toBottomOf="@id/Edit_senha"

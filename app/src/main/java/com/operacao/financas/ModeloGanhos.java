@@ -10,7 +10,7 @@ public class ModeloGanhos extends Modelagem {
     public ModeloGanhos(){
 
     }
-    public ModeloGanhos(int codigo, String descricao, double valor, String data) {
-        super(codigo, descricao, valor, data);
+    public ModeloGanhos(int codigo, String descricao, double valor, String data,int chave) {
+        super(codigo, descricao, valor, data,chave);
     }
 }

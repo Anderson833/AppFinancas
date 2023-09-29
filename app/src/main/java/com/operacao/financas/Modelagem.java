@@ -9,16 +9,28 @@ public class Modelagem {
     private String descricao;
     private double valor;
     private String data;
+
+    private int chaveEstrangeira;
+
+    public int getChaveEstrangeira() {
+        return chaveEstrangeira;
+    }
+
+    public void setChaveEstrangeira(int chaveEstrangeira) {
+        this.chaveEstrangeira = chaveEstrangeira;
+    }
+
     //Construtor vazio
     public Modelagem(){
 
     }
     // Construido um construtor
-    public Modelagem(int codigo,String descricao, double valor, String data) {
+    public Modelagem(int codigo,String descricao, double valor, String data,int chave) {
         this.codigo=codigo;
         this.descricao = descricao;
         this.valor = valor;
         this.data = data;
+        this.chaveEstrangeira=chave;
     }
 
     //Gerados os métodos getters e setters
